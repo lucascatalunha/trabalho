@@ -1,4 +1,4 @@
-def is_number_multiple_of_ten(input1: int):
+def is_number_multiple_of_ten(input1: int)->bool:
     verification = (input1 % 10) == 0
     return verification
 

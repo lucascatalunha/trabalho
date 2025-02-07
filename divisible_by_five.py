@@ -1,4 +1,4 @@
-def divisible_by_five(input1: int):
+def divisible_by_five(input1: int)->bool:
     verification = (input1 % 5) == 0
     return verification
 
