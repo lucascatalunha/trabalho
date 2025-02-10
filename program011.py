@@ -6,6 +6,7 @@ def correct_sentence(sentence: str) -> str:
     return x + b
 
 
-a = input("Escreva uma frase: ")
-output = correct_sentence(a)
-print(output)
+if __name__ == "__main__":
+    a = input("Escreva uma frase: ")
+    output = correct_sentence(a)
+    print(output)

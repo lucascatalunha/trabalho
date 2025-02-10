@@ -1,4 +1,3 @@
-
 def is_number_negative(number: int) -> bool:
     if number < 0:
         return True
@@ -7,12 +6,13 @@ def is_number_negative(number: int) -> bool:
         return False
 
 
-try:
-    pessoa = int(input('Digite um número: '))
+if __name__ == "__main__":
+    try:
+        pessoa = int(input("Digite um número: "))
 
-    output = is_number_negative(pessoa)
-    print(pessoa)
-    print(output)
+        output = is_number_negative(pessoa)
+        print(pessoa)
+        print(output)
 
-except ValueError:
-    print('Digite um número por favor.')
+    except ValueError:
+        print("Digite um número por favor.")
