@@ -1,5 +1,5 @@
 def discount_received(number: int, discount: int) -> int:
-    return number * (discount / 100)
+    return number - discount
 
 
 if __name__ == "__main__":

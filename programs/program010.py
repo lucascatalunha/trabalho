@@ -1,5 +1,5 @@
 def can_you_vote(input1: int) -> bool:
-    if input1 >= 16:
+    if input1 >= 18:
         return True
     else:
         return False

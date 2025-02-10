@@ -2,7 +2,7 @@ def correct_sentence(sentence: str) -> str:
     x = sentence[0].upper()
     if sentence[(len(sentence) - 1)] != ".":
         sentence += "."
-    b = sentence.replace(sentence[0], "")
+    b = sentence[1:]
     return x + b
 
 
