@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13.0"
+
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.1.0",
+    "pytest>=8.3.4",
+    "ruff>=0.9.6",
+]
+
+[tool.pytest.ini_options]
+python_files = ["tests.py", "test_*.py", "*_test.py"]
+testpaths = ["tests/*"]
