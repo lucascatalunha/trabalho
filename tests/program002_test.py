@@ -1,4 +1,4 @@
-from program002 import divisible_by_five
+from programs import divisible_by_five
 
 
 def test_01():

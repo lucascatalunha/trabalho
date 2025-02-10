@@ -1,4 +1,4 @@
-from program001 import is_number_multiple_of_ten
+from programs import is_number_multiple_of_ten
 
 
 def test_01():
