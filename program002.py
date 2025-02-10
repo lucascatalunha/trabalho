@@ -7,7 +7,6 @@ if __name__ == "__main__":
     input1 = input("Escreva um número: ")
     try:
         input1 = int(input1)
-
         output1 = divisible_by_five(input1)
 
         print(output1)
