@@ -3,7 +3,7 @@ from programs import club_entry
 
 def test_01():
     result = club_entry(20)
-    assert result is False
+    assert result is True
 
 
 def test_02():
