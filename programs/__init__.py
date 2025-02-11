@@ -1,6 +1,6 @@
 # ruff: noqa: F403
-from .program001 import *  # noqa: F403
-from .program002 import *
+from .program001 import is_number_multiple_of_ten  # noqa: F401, F403
+from .program002 import *  # noqa: F403
 from .program003 import *
 from .program004 import *
 from .program005 import *
