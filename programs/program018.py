@@ -1,6 +1,6 @@
-def double_number(number: int, number2: int, number3: int) -> int:
+def sum_of_three_numbers(number: int, number2: int, number3: int) -> int:
     return number + number2 + number3
 
 
 if __name__ == "__main__":
-    print(double_number(1, 2, 3))
+    print(sum_of_three_numbers(1, 2, 3))

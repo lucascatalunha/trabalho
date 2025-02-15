@@ -1,8 +1,8 @@
 def area_of_circle(radio: int) -> int:
-    return (radio**2) * pi
+    return float(f"{(radio**2) * pi:.2f}")
 
 
-pi = 3.14
+pi = 3.1416
 
 if __name__ == "__main__":
-    print(area_of_circle(2))
+    print(area_of_circle(10))

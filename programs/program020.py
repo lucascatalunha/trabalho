@@ -1,4 +1,4 @@
-def is_number_even(number: int) -> bool:
+def odd_even(number: int) -> bool:
     if (number % 2) == 0:
         return "Even"
 
@@ -7,4 +7,4 @@ def is_number_even(number: int) -> bool:
 
 
 if __name__ == "__main__":
-    print(is_number_even(2))
+    print(odd_even(2))

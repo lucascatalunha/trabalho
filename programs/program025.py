@@ -1,4 +1,4 @@
-def is_number_greater_than_five(number: int) -> bool:
+def greater_than_five(number: int) -> bool:
     if number > 5:
         return True
 
@@ -7,4 +7,4 @@ def is_number_greater_than_five(number: int) -> bool:
 
 
 if __name__ == "__main__":
-    print(is_number_greater_than_five(6))
+    print(greater_than_five(6))
