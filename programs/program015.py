@@ -1,5 +1,5 @@
-def minutes_into_seconds(hours: int) -> int:
-    return hours * 60
+def minutes_into_seconds(minutes: int) -> int:
+    return minutes * 60
 
 
 if __name__ == "__main__":
