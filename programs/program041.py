@@ -13,7 +13,8 @@ def split_strings(sentence: str) -> str:
     return vogais_str, consoantes_str
 
 
-entrada = "hello"
-vogais, consoantes = split_strings(entrada)
-print(vogais)
-print(consoantes)
+if __name__ == "__main__":
+    entrada = "hello"
+    vogais, consoantes = split_strings(entrada)
+    print(vogais)
+    print(consoantes)
