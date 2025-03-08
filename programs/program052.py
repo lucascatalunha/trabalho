@@ -1,6 +1,6 @@
-def multiplica_e_soma(a, b):
+def sum_of_multiplication(a, b):
     return (a * b) + a
 
 
-resultado = multiplica_e_soma(3, 5)
+resultado = sum_of_multiplication(3, 5)
 print(resultado)

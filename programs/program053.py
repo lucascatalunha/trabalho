@@ -1,4 +1,4 @@
-def primeiros_ultimos_indices(lista, elemento):
+def first_last_index(lista, elemento):
     if elemento not in lista:
         return None
     primeiro = lista.index(elemento)
@@ -8,5 +8,5 @@ def primeiros_ultimos_indices(lista, elemento):
 
 if __name__ == "__main__":
     lista_teste = [1, 2, 3, 2, 4, 2, 5]
-    resultado = primeiros_ultimos_indices(lista_teste, 2)
+    resultado = first_last_index(lista_teste, 2)
     print(resultado)

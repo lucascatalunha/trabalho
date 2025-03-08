@@ -1,10 +1,10 @@
 import math
 
 
-def calcular_viagens(total_passageiros, capacidade_por_viagem):
+def passengers_driver(total_passageiros, capacidade_por_viagem):
     return math.ceil(total_passageiros / capacidade_por_viagem)
 
 
 if __name__ == "__main__":
-    resultado = calcular_viagens(12, 3)
+    resultado = passengers_driver(12, 3)
     print(resultado)

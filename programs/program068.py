@@ -1,6 +1,6 @@
-def string_para_lista(s):
+def string_to_list(s):
     return s.split()
 
 
 if __name__ == "__main__":
-    print(string_para_lista("Hello world"))
+    print(string_to_list("Hello world"))

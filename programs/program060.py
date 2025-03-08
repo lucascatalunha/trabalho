@@ -1,6 +1,6 @@
-def adicionar_elemento_tupla(tupla, elemento):
+def modify_tuple(tupla, elemento):
     return tupla + (elemento,)
 
 
 if __name__ == "__main__":
-    print(adicionar_elemento_tupla((1, 2, 3), 4))
+    print(modify_tuple((1, 2, 3), 4))
