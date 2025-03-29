@@ -1,4 +1,3 @@
-# 7. Saudação por país
-def saudacao(pais):
-    saudacoes = {"EUA": "Hello", "França": "Bonjour", "Espanha": "Hola", "Itália": "Ciao"}
-    return saudacoes.get(pais, "Saudação não encontrada")
+# 8. Soma menor que um número
+def soma_menor(a, b, c):
+    return (a + b) < c

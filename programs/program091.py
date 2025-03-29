@@ -1,3 +1,3 @@
-# 23. Verificar se string está vazia
-def string_vazia(texto):
-    return texto == ""
+# 24. Contar argumentos
+def count_arguments(*args):
+    return len(args)

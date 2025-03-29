@@ -1,3 +1,3 @@
-# 19. Maior dígito de um número
-def maior_digito(numero):
-    return max(map(int, str(numero)))
+# 20. Verificar se duas listas são iguais
+def listas_iguais(lista1, lista2):
+    return lista1 == lista2

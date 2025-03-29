@@ -1,4 +1,2 @@
-# 3. Operação XOR em lista
-def xor_lista(lista):
-    from functools import reduce
-    return reduce(lambda x, y: x ^ y, lista)
+def time_saved_by_speeding(distancia, velocidade1, velocidade2):
+    return round((distancia / velocidade1) - (distancia / velocidade2), 2)

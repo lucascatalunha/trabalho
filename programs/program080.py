@@ -1,3 +1,3 @@
-# 11. Filtrar inteiros de uma lista
-def filtrar_inteiros(lista):
-    return [x for x in lista if isinstance(x, int)]
+# 12. Soma dos dígitos de um número
+def soma_digitos(numero):
+    return sum(map(int, str(numero)))

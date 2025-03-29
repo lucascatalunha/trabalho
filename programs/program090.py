@@ -1,3 +1,3 @@
-# 22. Verificar igualdade entre dois argumentos
-def sao_iguais(a, b):
-    return a == b
+# 23. Verificar se string está vazia
+def string_vazia(texto):
+    return texto == ""

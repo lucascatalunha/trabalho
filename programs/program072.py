@@ -1,4 +1,6 @@
+def string_to_list(s):
+    return s.split()
 
-# 4. Calcular tempo economizado
-def tempo_economizado(distancia, velocidade1, velocidade2):
-    return round((distancia / velocidade1) - (distancia / velocidade2), 2)
+
+if __name__ == "__main__":
+    print(string_to_list("Hello world"))

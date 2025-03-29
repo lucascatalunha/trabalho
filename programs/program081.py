@@ -1,3 +1,3 @@
-# 12. Soma dos dígitos de um número
-def soma_digitos(numero):
-    return sum(map(int, str(numero)))
+# 13. Remover vogais
+def remover_vogais(texto):
+    return "".join([char for char in texto if char.lower() not in "aeiou"])

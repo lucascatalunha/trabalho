@@ -1,5 +1,9 @@
-
-
-# 6. Nome completo
-def nome_completo(first_name, last_name):
-    return f"{first_name} {last_name}"
+# 7. Saudação por país
+def saudacao(pais):
+    saudacoes = {
+        "EUA": "Hello",
+        "França": "Bonjour",
+        "Espanha": "Hola",
+        "Itália": "Ciao",
+    }
+    return saudacoes.get(pais, "Saudação não encontrada")

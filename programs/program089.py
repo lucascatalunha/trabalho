@@ -1,3 +1,3 @@
-# 21. Combinar listas
-def combinar_listas(lista1, lista2):
-    return lista1 + lista2
+# 22. Verificar igualdade entre dois argumentos
+def sao_iguais(a, b):
+    return a == b

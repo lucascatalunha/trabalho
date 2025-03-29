@@ -1,3 +1,3 @@
-# 18. Verificar subconjunto
-def eh_subconjunto(lista1, lista2):
-    return set(lista1).issubset(set(lista2))
+# 19. Maior dígito de um número
+def maior_digito(numero):
+    return max(map(int, str(numero)))

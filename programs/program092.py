@@ -1,3 +1,5 @@
-# 24. Contar argumentos
-def count_arguments(*args):
-    return len(args)
+def indice_primeira_vogal(texto):
+    for i, char in enumerate(texto):
+        if char.lower() in "aeiou":
+            return i
+    return -1

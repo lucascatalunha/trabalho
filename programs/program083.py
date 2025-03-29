@@ -1,4 +1,3 @@
-# 14. Retornar dia da semana
-def dia_da_semana(n):
-    dias = ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo"]
-    return dias[n - 1] if 1 <= n <= 7 else "Número inválido"
+# 16. Converter número para lista de dígitos invertida
+def converter_reverso(numero):
+    return list(map(int, str(numero)[::-1]))

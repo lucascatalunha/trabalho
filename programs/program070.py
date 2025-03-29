@@ -1,3 +1,4 @@
-# 2. Calcular custo total
-def calcular_custo(custos):
-    return sum(map(int, custos.split()))
+def list_xor(lista):
+    from functools import reduce
+
+    return reduce(lambda x, y: x ^ y, lista)

@@ -1,3 +1,3 @@
-# 17. Remover enésimo caractere
-def remover_n_esimo(texto, n):
-    return texto[:n] + texto[n+1:] if 0 <= n < len(texto) else texto
+# 18. Verificar subconjunto
+def eh_subconjunto(lista1, lista2):
+    return set(lista1).issubset(set(lista2))

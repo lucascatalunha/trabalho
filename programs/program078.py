@@ -1,9 +1,5 @@
-
-# 9. Primeira letra única
-def primeira_unica(texto):
-    from collections import Counter
-    contagem = Counter(texto)
-    for char in texto:
-        if contagem[char] == 1:
-            return char
-    return ""
+# 10. Embaralhar índices de string
+def embaralhar_indices(texto):
+    pares = texto[::2]
+    impares = texto[1::2]
+    return pares + impares

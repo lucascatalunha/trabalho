@@ -1,27 +1,7 @@
-# 1. Converter string em lista de palavras
-def string_para_lista(texto):
-    return texto.split()
+# 2. Calcular custo total
+def shopping_for_memorial_day(custos):
+    return sum(map(int, custos.split()))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 25. Índice da primeira vogal
-def indice_primeira_vogal(texto):
-    for i, char in enumerate(texto):
-        if char.lower() in "aeiou":
-            return i
-    return -1
+if __name__ == "__main__":
+    shopping_for_memorial_day(10)

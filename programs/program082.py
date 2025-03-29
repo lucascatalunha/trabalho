@@ -1,5 +1,12 @@
-
-
-# 13. Remover vogais
-def remover_vogais(texto):
-    return "".join([char for char in texto if char.lower() not in "aeiou"])
+# 14. Retornar dia da semana
+def dia_da_semana(n):
+    dias = [
+        "segunda-feira",
+        "terça-feira",
+        "quarta-feira",
+        "quinta-feira",
+        "sexta-feira",
+        "sábado",
+        "domingo",
+    ]
+    return dias[n - 1] if 1 <= n <= 7 else "Número inválido"

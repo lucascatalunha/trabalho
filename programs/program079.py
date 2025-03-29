@@ -1,5 +1,3 @@
-# 10. Embaralhar índices de string
-def embaralhar_indices(texto):
-    pares = texto[::2]
-    impares = texto[1::2]
-    return pares + impares
+# 11. Filtrar inteiros de uma lista
+def filtrar_inteiros(lista):
+    return [x for x in lista if isinstance(x, int)]
