@@ -1,6 +1,8 @@
-def string_to_list(s):
-    return s.split()
+def concatenar_lista(lista):
+    return "".join(lista)
 
 
 if __name__ == "__main__":
-    print(string_to_list("Hello world"))
+    entrada = [" Hello", " World"]
+    saida = concatenar_lista(entrada)
+    print(saida)

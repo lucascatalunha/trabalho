@@ -1,4 +1,3 @@
-# 7. Saudação por país
 def saudacao(pais):
     saudacoes = {
         "EUA": "Hello",

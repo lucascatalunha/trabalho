@@ -1,4 +1,3 @@
-# 9. Primeira letra única
 def primeira_unica(texto):
     from collections import Counter
 

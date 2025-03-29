@@ -1,4 +1,3 @@
-# 14. Retornar dia da semana
 def dia_da_semana(n):
     dias = [
         "segunda-feira",
